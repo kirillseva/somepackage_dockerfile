@@ -20,7 +20,8 @@ RUN install2.r --error \
     stringr
 
 RUN installGithub.r \
-    hadley/testthat
+    hadley/testthat \
+    kirillseva/coveralls
 
 CMD ["R"]
 
