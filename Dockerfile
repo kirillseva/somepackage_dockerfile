@@ -10,6 +10,7 @@ RUN \
   apt-get install -y \
     git \
     curl\
+    libcurl4-openssl-dev \
     libxml2-dev \
     default-jre \
     default-jdk
